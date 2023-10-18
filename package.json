@@ -1,11 +1,16 @@
 {
     "name": "funnel-tools",
-    "version": "1.0.0",
+    "version": "1.0.7",
     "description": "hello funnel",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc --project tsconfig.json",
+        "watch": "tsc --project tsconfig.json && tsc -w"
     },
     "author": "",
-    "license": "ISC"
+    "license": "ISC",
+    "dependencies": {
+        "typescript": "^5.2.2"
+    }
 }
