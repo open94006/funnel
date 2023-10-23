@@ -1,9 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Tool = void 0;
 class Tool {
 }
-exports.Tool = Tool;
 // 確認方法載入成功
 Tool.waitLoadModule = (name, event, timeout, msg) => {
     let t = timeout && timeout > 500 ? timeout : 500;
@@ -67,3 +65,4 @@ Tool.formatUserName = (first_name, last_name) => {
     }
     return first_name + last_name;
 };
+exports.default = Tool;

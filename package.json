@@ -1,6 +1,6 @@
 {
     "name": "funnel-tools",
-    "version": "1.0.9",
+    "version": "1.0.18",
     "description": "hello funnel",
     "main": "tool.js",
     "scripts": {

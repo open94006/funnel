@@ -1,4 +1,4 @@
-export class Tool {
+export default class Tool {
     // 確認方法載入成功
     static waitLoadModule = (name: string, event: () => void, timeout?: number, msg?: boolean) => {
         let t = timeout && timeout > 500 ? timeout : 500;
