@@ -1,6 +1,6 @@
 {
     "name": "funnel-tools",
-    "version": "1.0.18",
+    "version": "1.0.24",
     "description": "hello funnel",
     "main": "tool.js",
     "scripts": {
@@ -11,6 +11,14 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "typescript": "^5.2.2"
+        "bcrypt": "^5.1.1",
+        "crypto": "^1.0.1",
+        "moment-timezone": "^0.5.43",
+        "typescript": "^5.2.2",
+        "underscore": "^1.13.6"
+    },
+    "devDependencies": {
+        "@types/bcrypt": "^5.0.1",
+        "@types/underscore": "^1.11.12"
     }
 }
